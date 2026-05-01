@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fathima Hana H S | Portfolio</title>
+    <meta name="description" content="Portfolio of Fathima Hana H S - B.Tech IT Student and Web Developer.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg-animated"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass-nav" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">FH<span class="highlight">.</span></a>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <p class="greeting reveal">Hello, I am</p>
+                <h1 class="hero-title reveal delay-1">Fathima Hana H S</h1>
+                <h2 class="hero-subtitle reveal delay-2">Building real-world solutions <br><span class="highlight">through code</span></h2>
+                <p class="hero-desc reveal delay-3">B.Tech IT Student | Web Developer</p>
+                <div class="hero-cta reveal delay-4">
+                    <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+                    <a href="assets/resume.pdf" class="btn btn-secondary" target="_blank" download="Fathima_Hana_Resume.pdf"><i class="fas fa-download"></i> Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image-container reveal delay-3">
+                <div class="hero-image-glow"></div>
+                <img src="assets/profile.jpg" alt="Fathima Hana H S" class="hero-image">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text glass-card reveal">
+                    <p>I am a passionate Information Technology student with strong skills in HTML, CSS, JavaScript, and SQL. I have experience building real-time web applications and database-driven systems.</p>
+                    <br>
+                    <p>I actively participate in hackathons and tech communities, which has helped me build strong teamwork, leadership, and problem-solving skills.</p>
+                    
+                    <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--text-primary);">Education</h3>
+                    <div class="edu-card" style="background: var(--badge-bg); padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(59, 130, 246, 0.2);">
+                        <div class="edu-header" style="display: flex; justify-content: space-between; align-items: center;">
+                            <i class="fas fa-graduation-cap highlight" style="font-size: 1.5rem;"></i>
+                            <span class="year" style="font-weight: 600; color: var(--secondary-color);">2024–2028</span>
+                        </div>
+                        <h4 style="margin-top: 0.5rem; color: var(--text-primary);">B.Tech in Information Technology</h4>
+                        <p class="institution" style="color: var(--text-secondary); margin-top: 0.2rem;">Cochin University of Science and Technology</p>
+                    </div>
+                </div>
+                
+                <div class="skills-container glass-card reveal delay-1">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-categories">
+                        <div class="skill-category">
+                            <h4>Languages</h4>
+                            <div class="badges">
+                                <span class="badge"><i class="fab fa-js"></i> JavaScript</span>
+                                <span class="badge"><i class="fab fa-html5"></i> HTML</span>
+                                <span class="badge"><i class="fab fa-css3-alt"></i> CSS</span>
+                                <span class="badge"><i class="fas fa-database"></i> SQL</span>
+                                <span class="badge">MATLAB</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Database</h4>
+                            <div class="badges">
+                                <span class="badge"><i class="fas fa-server"></i> MySQL</span>
+                                <span class="badge"><i class="fas fa-cloud"></i> Supabase</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Tools</h4>
+                            <div class="badges">
+                                <span class="badge"><i class="fab fa-git-alt"></i> Git</span>
+                                <span class="badge"><i class="fab fa-github"></i> GitHub</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Concepts</h4>
+                            <div class="badges">
+                                <span class="badge">Web Development</span>
+                                <span class="badge">API Integration</span>
+                                <span class="badge">Database Management</span>
+                                <span class="badge">Problem Solving</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title reveal">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card glass-card reveal">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-bus project-icon"></i>
+                            <div class="project-links">
+                                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="#" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Metro Feeder Bus Tracker</h3>
+                        <p class="project-description">Real-time bus tracking web app focusing on performance optimization and usability.</p>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Live tracking</li>
+                            <li><i class="fas fa-check"></i> Route mapping</li>
+                            <li><i class="fas fa-check"></i> Responsive UI</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>HTML/CSS/JS</span>
+                            <span>Maps API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card reveal delay-1">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-building project-icon"></i>
+                            <div class="project-links">
+                                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Hostel Management & Complaint System</h3>
+                        <p class="project-description">Web-based complaint management system with a structured workflow and role-based authentication.</p>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Authentication</li>
+                            <li><i class="fas fa-check"></i> Structured Workflow</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>SQL</span>
+                            <span>PHP/Backend</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card reveal delay-2">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-heartbeat project-icon"></i>
+                            <div class="project-links">
+                                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Pregnancy Journey Web App</h3>
+                        <p class="project-description">Healthcare tracking app providing health guidance through a highly user-friendly interface.</p>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Chatbot Integration</li>
+                            <li><i class="fas fa-check"></i> Health Guidance</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>AI Integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card reveal delay-3">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-meteor project-icon"></i>
+                            <div class="project-links">
+                                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="#" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Chovva Alert</h3>
+                        <p class="project-description">Creative Mars weather app designed for a UI creativity challenge.</p>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Temperature Data</li>
+                            <li><i class="fas fa-check"></i> Atmospheric Data</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>Frontend Tech</span>
+                            <span>NASA API</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title reveal">Experience</h2>
+            <div class="projects-grid" style="margin-bottom: 4rem;">
+                
+                <!-- Experience 1 -->
+                <div class="project-card glass-card reveal">
+                    <img src="assets/exp1.jpg" alt="Vibhava Innovation Fest 2025" style="width: 100%; height: 250px; object-fit: contain; border-radius: 12px; margin-bottom: 1rem; background: rgba(255,255,255,0.05);" onerror="this.style.display='none'">
+                    <div class="project-content">
+                        <h3 class="project-title" style="font-size: 1.4rem;">Curation Team Member</h3>
+                        <p class="project-description" style="margin-bottom: 0.5rem; color: var(--secondary-color); font-weight: 600;">Vibhava Innovation Fest 2025</p>
+                        <p class="project-description">Collaborated on curating innovative events and talks, enhancing team coordination and leadership skills.</p>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="project-card glass-card reveal delay-1">
+                    <img src="assets/exp2.jpg" alt="TEDx CUSAT 2026" style="width: 100%; height: 250px; object-fit: contain; border-radius: 12px; margin-bottom: 1rem; background: rgba(255,255,255,0.05);" onerror="this.style.display='none'">
+                    <div class="project-content">
+                        <h3 class="project-title" style="font-size: 1.4rem;">Curation Team Member</h3>
+                        <p class="project-description" style="margin-bottom: 0.5rem; color: var(--secondary-color); font-weight: 600;">TEDx CUSAT 2026</p>
+                        <p class="project-description">Curating inspiring talks, focusing on impactful storytelling and communication.</p>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="project-card glass-card reveal delay-2">
+                    <img src="assets/exp3.jpg" alt="SAIT CUSAT" style="width: 100%; height: 250px; object-fit: contain; border-radius: 12px; margin-bottom: 1rem; background: rgba(255,255,255,0.05);" onerror="this.style.display='none'">
+                    <div class="project-content">
+                        <h3 class="project-title" style="font-size: 1.4rem;">Outreach Team Member</h3>
+                        <p class="project-description" style="margin-bottom: 0.5rem; color: var(--secondary-color); font-weight: 600;">SAIT CUSAT (2025–2026)</p>
+                        <p class="project-description">Managing outreach programs and fostering technical community engagement.</p>
+                    </div>
+                </div>
+
+                <!-- Experience 4 -->
+                <div class="project-card glass-card reveal delay-3">
+                    <img src="assets/exp4.jpg" alt="TEDx CUSAT 2024" style="width: 100%; height: 250px; object-fit: contain; border-radius: 12px; margin-bottom: 1rem; background: rgba(255,255,255,0.05);" onerror="this.style.display='none'">
+                    <div class="project-content">
+                        <h3 class="project-title" style="font-size: 1.4rem;">Outreach & PR</h3>
+                        <p class="project-description" style="margin-bottom: 0.5rem; color: var(--secondary-color); font-weight: 600;">TEDx CUSAT (Sep 2024)</p>
+                        <p class="project-description">Executed PR campaigns and handled outreach, significantly boosting audience engagement.</p>
+                    </div>
+                </div>
+
+                <!-- Experience 5 -->
+                <div class="project-card glass-card reveal delay-4">
+                    <img src="assets/exp5.jpg" alt="UI/UX Talk Session" style="width: 100%; height: 250px; object-fit: contain; border-radius: 12px; margin-bottom: 1rem; background: rgba(255,255,255,0.05);" onerror="this.style.display='none'">
+                    <div class="project-content">
+                        <h3 class="project-title" style="font-size: 1.4rem;">Participant – UI/UX Talk</h3>
+                        <p class="project-description" style="margin-bottom: 0.5rem; color: var(--secondary-color); font-weight: 600;">Make-A-Ton at Tinkerspace Kochi</p>
+                        <p class="project-description">Attended an engaging UI/UX session at Pixel & Paper. It was a great opportunity to learn about interface thinking and see how good design directly impacts usability.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="split-layout">
+                <!-- Certifications -->
+                <div class="edu-achievements-container reveal delay-1">
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="cert-card glass-card">
+                        <i class="fab fa-ibm highlight" style="font-size: 1.5rem; margin-bottom: 0.5rem; display: block;"></i>
+                        <h4>IBM SkillsBuild – Cloud Computing</h4>
+                        <p>Covered cloud fundamentals, deployment models, and cloud services.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-title reveal" style="margin-top: 5rem;">Achievements</h2>
+            <div class="projects-grid reveal delay-1">
+                <div class="project-card glass-card">
+                    <img src="assets/achieve1.jpg" alt="Hack Europa" style="width: 100%; height: 200px; object-fit: contain; border-radius: 12px; margin-bottom: 1rem; background: rgba(255,255,255,0.05);" onerror="this.style.display='none'">
+                    <div class="project-content">
+                        <div style="display: flex; align-items: flex-start; gap: 1rem; width: 100%;">
+                            <div class="achievement-icon" style="color: var(--secondary-color); font-size: 1.5rem;"><i class="fas fa-trophy"></i></div>
+                            <div style="font-size: 1.1rem;"><strong>First Prize</strong><br>Hack Europa (Best Idea)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card delay-1">
+                    <img src="assets/achieve2.jpg" alt="Tinkerhub Carnival" style="width: 100%; height: 200px; object-fit: contain; border-radius: 12px; margin-bottom: 1rem; background: rgba(255,255,255,0.05);" onerror="this.style.display='none'">
+                    <div class="project-content">
+                        <div style="display: flex; align-items: flex-start; gap: 1rem; width: 100%;">
+                            <div class="achievement-icon" style="color: var(--secondary-color); font-size: 1.5rem;"><i class="fas fa-medal"></i></div>
+                            <div style="font-size: 1.1rem;">Presented project at<br><strong>Tinkerhub Carnival</strong></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card delay-2">
+                    <img src="assets/achieve3.jpg" alt="Tinkerhack" style="width: 100%; height: 200px; object-fit: contain; border-radius: 12px; margin-bottom: 1rem; background: rgba(255,255,255,0.05);" onerror="this.style.display='none'">
+                    <div class="project-content">
+                        <div style="display: flex; align-items: flex-start; gap: 1rem; width: 100%;">
+                            <div class="achievement-icon" style="color: var(--secondary-color); font-size: 1.5rem;"><i class="fas fa-star"></i></div>
+                            <div style="font-size: 1.1rem;">Participated in<br><strong>Tinkerhack</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title reveal">Get In Touch</h2>
+            <div class="contact-container glass-card reveal">
+                <p class="contact-text">I'm currently looking for new opportunities and internships. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                
+                <div class="contact-methods">
+                    <a href="mailto:your.email@example.com" class="contact-btn">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email Me</span>
+                    </a>
+                    <a href="tel:+1234567890" class="contact-btn">
+                        <i class="fas fa-phone"></i>
+                        <span>Call Me</span>
+                    </a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-btn">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/F4thim4h4n4" target="_blank" class="contact-btn">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fathima Hana H S. Built with <i class="fas fa-heart" style="color: var(--primary-color);"></i></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
